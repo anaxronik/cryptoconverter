@@ -16,3 +16,22 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.curencyBlock{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.curencyBlock > .TextField{
+  width: 50%;
+  padding-right: 10px;
+}
+
+.curencyBlock > .FormControl{
+  width: 50%;
+}
+
+

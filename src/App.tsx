@@ -1,10 +1,11 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 
 function App() {
   return (
-    <div className="App">
-      work
-    </div>
+    <Container maxWidth="lg">
+      asdsd
+    </Container>
   );
 }
 

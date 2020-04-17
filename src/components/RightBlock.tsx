@@ -13,10 +13,10 @@ export default function Right() {
     return (
         <div>
             <div className='curencyBlock'>
-                <TextField className='TextField' id="outlined-basic" label="Отдам" variant="outlined" />
+                <TextField className='TextField' id="outlined-basic1" label="Отдам" variant="outlined" />
 
                 <FormControl variant="outlined" className='FormControl'>
-                    <InputLabel htmlFor="outlined-age-native-simple">$</InputLabel>
+                    <InputLabel htmlFor="outlined-age-native-simple1">$</InputLabel>
                     <Select
                         native
                         value={[]}
@@ -24,7 +24,7 @@ export default function Right() {
                         label="Age"
                         inputProps={{
                             name: 'age',
-                            id: 'outlined-age-native-simple',
+                            id: 'outlined-age-native-simple1',
                         }}
                     >
                         <option aria-label="None" value="" />
@@ -36,9 +36,9 @@ export default function Right() {
             </div>
 
             <div className='curencyBlock'>
-                <TextField className='TextField' id="outlined-basic" label="Получу" variant="outlined" />
+                <TextField className='TextField' id="outlined-basic2" label="Получу" variant="outlined" />
                 <FormControl variant="outlined" className='FormControl'>
-                    <InputLabel htmlFor="outlined-age-native-simple">$</InputLabel>
+                    <InputLabel htmlFor="outlined-age-native-simple2">$</InputLabel>
                     <Select
                         native
                         value={[]}
@@ -46,7 +46,7 @@ export default function Right() {
                         label="Age"
                         inputProps={{
                             name: 'age',
-                            id: 'outlined-age-native-simple',
+                            id: 'outlined-age-native-simple2',
                         }}
                     >
                         <option aria-label="None" value="" />
